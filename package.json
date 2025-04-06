@@ -1,15 +1,21 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
+  "name": "toshiprojects",
+  "version": "1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "toshipogi",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^22.13.11"
+    "@types/node": "^18.0.6",
+    "axios": "^1.6.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.5.0",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2"
   }
 }
